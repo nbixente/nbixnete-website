@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepagina</title>
+    <!-- resetten van browsers -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap CSS icons: https://icons.getbootstrap.com/#usage -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- JavaScript: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
+        defer>
+        </script>
+    <!-- eigen geschreven css voor jouw html-bestand -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="m-0 border-0 bd-example m-0 border-0">
+    <!-- NAVIGATION PART -->
+    <nav class="navbar navbar-expand-md bg-light container-fluid">
+        <a class="navbar-brand p-1" href="#"><img src="assets/images/logo-test.png" alt="BN logo" width="100"
+                height="100" class="rounded-circle">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse p-1" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link fs-5" href="index.html">
+                        <i class="bi bi-house-door-fill pe-2 fs-4"></i>Home
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link fs-5 active disable" aria-current="page" area-disable="true"
+                        href="portfolio.html">
+                        <i class="bi bi-person-fill pe-2 fs-4"></i>Portfolio
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fs-5" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="bi bi-file-earmark-text-fill pe-2 fs-4"></i>Projecten
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="projecten.html">Projecten overzicht</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="projecten/P01.html">PO1</a></li>
+                        <li><a class="dropdown-item" href="projecten/P02.html">PO2</a></li>
+                        <li><a class="dropdown-item" href="projecten/P03.html">PO3</a></li>
+                        <li><a class="dropdown-item" href="projecten/P04.html">PO4</a></li>
+                        <li><a class="dropdown-item" href="projecten/P05.html">PO5</a></li>
+                        <li><a class="dropdown-item" href="projecten/P06.html">PO6</a></li>
+                    </ul>
+                </li>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-5" href="contact.html">
+                        <i class="bi bi-envelope-fill pe-2 fs-4"></i>Contact
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- HEADER PART -->
+    <header class="row m-5">
+        <h1 class="col display-3 text-center">Bixente Neyens</h1>
+    </header>
+
+    <!-- MAIN PART -->
+    <div class="container">
+        <div class="row">
+            <main class="col-md-9 pe-3">
+                <!-- MIJN PORTFOLIO -->
+                <section id="over-mij" title="over-mij" class="border-bottom border-light mb-4">
+                    <article class="col-12 mb-3 border-bottom border-light">
+                        <h2 class="text-uppercase fw-bolder pt-3">dit is mijn portfolio</h2>
+                    </article>
+                    <article class="col-12 col-mb-8">
+                        <h3 class="text-uppercase fw-bolder pt-3">over mij</h3>
+                        <p>
+                            Hallo en welkom op mijn portfolio-pagina! Mijn naam is Bixente Neyens, een gedreven
+                            IT-student aan
+                            de Graduaatsopleiding Systeem- en Netwerkbeheer bij AP Hogeschool in Antwerpen. Al van jongs
+                            af aan ben ik gepassioneerd door IT. Na mijn middelbare studies in Informaticabeheer ben ik
+                            gestart met een bachelor Cybersecurity & Cloud. Hoewel ik onderweg enkele uitdagingen
+                            tegenkwam, heeft mijn overstap naar het graduaat Systeem- en Netwerkbeheer me opnieuw doen
+                            beseffen waarom ik zo van IT hou.
+
+                            Mijn interesse ligt vooral bij cloudtechnologie, cybersecurity en alles wat met systeem- en
+                            netwerkbeheer te maken heeft. Deze opleiding heeft mijn passie voor IT opnieuw aangewakkerd,
+                            en ik kijk ernaar uit om mijn carrière in de sector te starten en mijn vaardigheden verder
+                            te ontwikkelen.
+
+                            Op deze pagina ga je te weten komen wie Bixente nu juist is!
+                        </p>
+                    </article>
+                    <article class="col-12 col-mb-4">
+                        <figure>
+                            <img src="./assets/images/20250215_000907.png"
+                                alt="Foto van Bixente Neyens" class="img-fluid" title="Foto van Bixente Neyens"
+                                width="400" height="400">
+                            <figcaption>&copy;Bixente Neyens</figcaption>
+                        </figure>
+                    </article>
+                </section>
+
+                <!-- MAIN: SECTION INFORMATIE -->
+                <section title="persoonlijkheid" title="persoonlijkheid">
+                    <article class="col-12 col-mb-8">
+                        <h3 class="text-uppercase fw-bolder pt-3">Mijn persoonlijkheid</h3>
+                        <p>Ik ben een empathische en toegewijde persoon met het hart op de juiste plek. Hoewel ik soms
+                            stil ben, sta ik bekend om mijn beleefdheid en vriendelijke houding. Ik haal voldoening uit
+                            het leren van nieuwe onderwerpen en deel mijn kennis graag op een duidelijke en
+                            toegankelijke manier.
+                            Daarnaast ben ik gemotiveerd om mezelf continu te ontwikkelen en pas ik me gemakkelijk aan
+                            verschillende situaties aan. Mijn probleemoplossend vermogen, stressbestendigheid en
+                            vermogen om zowel zelfstandig als in teamverband te werken, maken mij een waardevolle
+                            toevoeging aan elk project.
+                        </p>
+                    </article>
+                    <article class="col-12 col-mb-8  border-bottom border-light">
+                        <h3 class="text-uppercase fw-bolder pt-3 ">Wie ben ik na de werkuren?</h3>
+                        <p>Na mijn werkuren ontspan ik door drie tot vijf keer per week een stevige wandeling van ongeveer 6 kilometer te maken. 
+                            Daarnaast ben ik een enthousiast beoefenaar van thuissporten, die ik vaak voor of na school inplan. 
+                            Al sinds mijn jeugd heb ik een passie voor voetbal en auto's. 
+                            In het weekend vind ik het heerlijk om wedstrijden te kijken of een autobeurs te bezoeken.
+                        </p>
+                    </article>
+                </section>
+                <div class="row border-bottom border-light">
+                    <section title="opleiding" title="opleiding" class="col-md-6">
+                        <article>
+                            <h3 class="text-uppercase fw-bolder pt-3">Schooltraject</h3>
+                            <h4>Opleiding</h4>
+                            <dl>
+                                <dt><time datetime="2015-09-01">2015-2021</time></dt>
+                                <dd>School: Sint-Cordula</dd>
+                                <dd>Locatie: Schoten</dd>
+                                <dd>Richting: Informaticabeheer</dd>
+                                <dd>Status: Geslaagd</dd>
+                            </dl>
+                            <dl>
+                                <dt><time datetime="2021-09-01">2021-2022</time></dt>
+                                <dd>School: Karel de Grote Hogeschool</dd>
+                                <dd>Locatie: Antwerpen</dd>
+                                <dd>Richting: Bachelor Informaticabeheer</dd>
+                                <dd>Status: niet beëindigd</dd>
+                            </dl>
+                            <dl>
+                                <dt><time datetime="2022-09-01">2022-2024</time></dt>
+                                <dd>School: AP Hogeschool</dd>
+                                <dd>Locatie: Antwerpen</dd>
+                                <dd>Richting: Bachelor Cybersecurity and Cloud</dd>
+                                <dd>Status: niet beëindigd</dd>
+                            </dl>
+                            <dl>
+                                <dt><time datetime="2025-02-03">2025-2026</time></dt>
+                                <dd>School: AP Hogeschool</dd>
+                                <dd>Locatie: Antwerpen</dd>
+                                <dd>Richting: Graduaatsopleiding Systeem en Netwerkbeheer</dd>
+                                <dd>Status: In progress</dd>
+                            </dl>
+                        </article>
+                    </section>
+                    <section title="werkervaring" title="werkervaring" class="col-md-6">
+                        <article>
+                            <h3 class="text-uppercase fw-bolder pt-3">Professionele ervaringen</h3>
+                            <h4>Werkervaring</h4>
+                            <dl>
+                                <dt><time datetime="2021-09-01">2021-2022</time></dt>
+                                <dd>Horeca: Bar Henri</dd>
+                                <dd>Locatie: Brecht</dd>
+                                <dd>Functie: Afwasmedewerker</dd>
+                            </dl>
+                            <dl>
+                                <dt><time datetime="2023-07-01">2023-2023</time></dt>
+                                <dd>Bedrijf: Evonik</dd>
+                                <dd>Locatie: Antwerpen</dd>
+                                <dd>Functie: Opzakking</dd>
+                                <dd>Periode: 1 maand als studentenjob</dd>
+                            </dl>
+                            <dl>
+                                <dt><time datetime="2024-07-01">2024-2024</time></dt>
+                                <dd>Bedrijf: Evonik</dd>
+                                <dd>Locatie: Antwerpen</dd>
+                                <dd>Functie: Opzakking</dd>
+                                <dd>Periode: 1 maand als studentenjob</dd>
+                            </dl>
+                            <dl>
+                                <dt><time datetime="2021-09-01">2022-heden</time></dt>
+                                <dd>Horeca: De Keysershoeve</dd>
+                                <dd>Locatie: Brecht</dd>
+                                <dd>Functie: Afwasmedewerker/Keukenhulp</dd>
+                            </dl>
+
+                        </article>
+                    </section>
+                </div>
+                <div class="row">
+                    <section title="softskills" title="softskills">
+                        <article class="col-12 col-mb-6">
+                            <h3 class="text-uppercase fw-bolder pt-3">Softskills</h3>
+                            <div class="progress mb-2" role="progressbar" aria-label="Success example" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-success text-light" style="width: 75%">Probleemoplossend denken</div>
+                            </div>
+                            <div class="progress mb-2" role="progressbar" aria-label="Success example" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-success text-light" style="width: 75%">Communicatie & Teamwork</div>
+                            </div>
+                            <div class="progress mb-2" role="progressbar" aria-label="Success example" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-success text-ligt" style="width: 75%">Aanpassingsvermogen</div>
+                            </div>
+                            <div class="progress mb-2" role="progressbar" aria-label="Success example" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-success" style="width: 100%">Oranisatie en timing</div>
+                            </div>
+                        </article>
+                    </section>
+
+                </div>
+                <div class="row">
+                    <section title="talen" title="talen">
+                        <article class="col-12 col-mb-6">
+                            <h3 class="text-uppercase fw-bolder pt-3">Talen</h3>
+                            <div class="progress mb-2" role="progressbar" aria-label="Danger example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-danger text-light" style="width: 25%">Frans</div>
+                              </div>
+                            <div class="progress mb-2" role="progressbar" aria-label="Danger example" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-danger text-light" style="width: 75%">Engels</div>
+                            </div>
+                            <div class="progress mb-2" role="progressbar" aria-label="Danger example" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-danger" style="width: 90%">Nederlands</div>
+                            </div>
+                        </article>
+                    </section>
+
+                </div>
+
+                <div class="row mb-4">
+                    <section title="hardskills" title="hardskills">
+                        <article class="col-12 col-mb-6">
+                            <h3 class="text-uppercase fw-bolder pt-3">Hardskills</h3>
+                            <div class="progress mb-2" role="progressbar" aria-label="Info example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-info text-light" style="width: 100%">Virtualiseren (Hyper-V, Virtualbox, VMWare)</div>
+                              </div>
+                            <div class="progress mb-2" role="progressbar" aria-label="Info example" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-info text-light" style="width: 80%">Windows serverbeheer W10 & W11</div>
+                            </div>
+                            <div class="progress mb-2" role="progressbar" aria-label="Info example" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-info" style="width: 80%">Programmeren (C#, Python, Powershell, HTML, CSS, JS)</div>
+                            </div>
+                            <div class="progress mb-2" role="progressbar" aria-label="Info example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-info text-light" style="width: 80%">Linux & Linux serverbeheer</div>
+                              </div>
+                            <div class="progress mb-2" role="progressbar" aria-label="Info example" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-info text-light" style="width: 80%">Cloud (ESXI, Azure)</div>
+                            </div>
+                            <div class="progress mb-2" role="progressbar" aria-label="Info example" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-info" style="width: 90%">Netwerkbeheer (Cisco Packet Tracer, Fysieke switches)</div>
+                            </div>
+                            <div class="progress mb-2" role="progressbar" aria-label="Info example" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-info" style="width: 75%">Auditing & Monitoring (Zabbix)</div>
+                            </div>
+                        </article>
+                    </section>
+
+                </div>
+
+            </main>
+            <!-- ASIDE PART -->
+            <aside class="col-md-3  ps-5 aside-color">
+                <!-- SECTION CONTACT -->
+                <section class="row border-bottom border-light mb-3">
+                    <h4 class="text-uppercase fw-bolder pt-3">contact</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="tel:+32471064904" class="text-decoration-none d-block">+32 471 06 49 04</a>
+                        </li>
+                        <li>
+                            <a href="mailto:nbixente@gmail.com"
+                                class="text-decoration-none d-block">nbixente@gmail.com</a>
+                        </li>
+                    </ul>
+
+                    <ul class="list-inline socials ">
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com" target="_blank">
+                                <i class="bi bi-instagram fs-6"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com" target="_blank">
+                                <i class="bi bi-facebook fs-6"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item mb-3">
+                            <a href="https://www.linkedin.com/" target="_blank"><i class="bi bi-linkedin fs-6"></i></a>
+                        </li>
+                    </ul>
+                </section>
+                <!-- SECTION QUOTES -->
+                <section class="row border-bottom border-light mb-3">
+                    <h4 class="text-uppercase fw-bolder pt-3">Quotes</h4>
+                    <blockquote class="blockquote">
+                        "Het oog vergeet nooit wat het hart heeft gezien"
+                    </blockquote>
+                    <blockquote class="blockquote">
+                        "De enige strijd die je moet winnen, is die in je eigen hoofd."
+                    </blockquote>
+                </section>
+                <!-- SECTION CV -->
+                <section class="row border-bottom border-light">
+                    <h4 class="text-uppercase fw-bolder pt-3">
+                        Curriculum Vitae
+                    </h4>
+                    <a href="#" class="mb-3">Download mijn cv hier!</a>
+                </section>
+
+            </aside>
+        </div>
+    </div>
+    <!-- FOOTER PART -->
+    <footer class="container-fluid bg-light text-center py-4">
+        <div class="d-flex justify-content-center align-items-center">
+            <a class="navbar-brand p-1" href="index.html">
+                <img src="assets/images/logo-test.png" alt="BN logo" width="100" height="100" class="rounded-circle">
+            </a>
+            <div class="mt-4">
+                © 2025 Bixente Neyens. Alle rechten voorbehouden.
+                <br>
+                <a href="#" class="text-dark me-3"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-dark me-3"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-dark"><i class="bi bi-instagram"></i></a>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
