@@ -67,8 +67,12 @@ a{
 }
 
 
+
 @media (min-width: 500px) {
     .footer-content {
         justify-content: center; /* Centreren op grotere schermen */
+    }
+    .padding-start-aside{
+        padding-left: 3rem;
     }
 }
