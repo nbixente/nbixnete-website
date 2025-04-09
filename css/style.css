@@ -71,6 +71,8 @@ a{
     background-color:#C8C8C8;
 }
 
+
+
 .uniforme-afbeelding {
     height: 400px; /* Vervang dit door de gewenste hoogte */
     object-fit: cover;
@@ -95,4 +97,5 @@ a{
     .padding-start-aside{
         padding-left: 3rem;
     }
+    
 }
