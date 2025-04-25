@@ -39,15 +39,15 @@ a{
 
 .custom-green:hover,
 .custom-green:focus {
-    background-color: rgba(0, 128, 0, 0.4);
-    border-color: rgba(0, 128, 0, 0.4);
+    background-color: rgba(0, 128, 0, 0.3);
+    border-color: rgba(0, 128, 0, 0.3);
     color: #000000;
     box-shadow: none;
 }
 
 .custom-green:active {
-    background-color: rgba(0, 128, 0, 0.5);
-    border-color: rgba(0, 128, 0, 0.5);
+    background-color: rgba(0, 128, 0, 0.3);
+    border-color: rgba(0, 128, 0, 0.3);
     color: #000000;
     box-shadow: none;
 }
@@ -84,10 +84,35 @@ a{
     object-fit: cover; /* Behoudt aspect ratio en vult de container, snijdt indien nodig bij */
 }
 
+footer{
+    margin-top: 1rem;
+}
+
+
 .footer-content {
     justify-content: left; 
 }
 
+
+
+
+.progress, .progress-stacked {
+    --bs-progress-height: 1.5rem;
+    --bs-progress-font-size: 1rem;
+    --bs-progress-bg: var(--bs-secondary-bg);
+    --bs-progress-border-radius: var(--bs-border-radius);
+    --bs-progress-box-shadow: var(--bs-box-shadow-inset);
+    --bs-progress-bar-color: #fff;
+    --bs-progress-bar-bg: #0d6efd;
+    --bs-progress-bar-transition: width 0.6s ease;
+    display: flex;
+    height: var(--bs-progress-height);
+    overflow: hidden;
+    font-size: var(--bs-progress-font-size);
+    background-color: var(--bs-progress-bg);
+    border-radius: var(--bs-progress-border-radius);
+    border: 0.5px solid #000000;
+    }
 
 
 @media (min-width: 500px) {
