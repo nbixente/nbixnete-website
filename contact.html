@@ -16,9 +16,22 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer>
     </script>
+  
+
+    <!-- LEAFLET -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="css/map.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <!-- js toevoegen -->
+  <script src="js/mapLoc.js" defer></script>
+
   <!-- eigen geschreven css voor jouw html-bestand -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/light-mode.css">
+  <link rel="stylesheet" href="css/map.css">
+
 </head>
 
 <body class="m-0 border-0 bd-example m-0 border-0">
@@ -83,6 +96,10 @@
   <div class="container">
     <div class="row">
       <main class="col-lg-9 pe-3">
+
+        <!-- MAP TOEVOEGEN -->
+        
+
         <section id="contact" class="row">
           <div class="col-12 mb-3">
             <h2 class="text-uppercase fw-bolder pt-3">contact</h2>
@@ -90,27 +107,29 @@
             <p>Ik kijk ernaar uit om op koffie te gaan.</p>
           </div>
 
+          <section id="map" class="row">
+            <div id="LocMap" class="col-12 mb-3"></div>
+          </section>
 
 
-
-          <form class="row needs-validation" action="#" novalidate method="post">
+          <form class="row needs-validation" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
             <fieldset class="row g-3 mb-3">
               <legend class="text-uppercase fs-4 fw-bolder pt-3">contactformulier</legend>
-              <div class="col-md-6">
+              <div class="col-md-6 form-group">
                 <label for="firstName" class="form-label">Voornaam</label>
                 <input type="text" class="form-control" id="firstName" placeholder="Voornaam" required>
                 <div class="invalid-feedback">
                   Vul uw voornaam in.
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 form-group">
                 <label for="lastName" class="form-label">Achternaam</label>
                 <input type="text" class="form-control" id="lastName" placeholder="Achternaam" required>
                 <div class="invalid-feedback">
                   Vul uw naam in.
                 </div>
               </div>
-              <div class="col-12 col-md-6">
+              <div class="col-12 col-md-6 form-group">
                 <label for="email" class="form-label">E-mail</label>
                 <input type="email" class="form-control" id="email" name="email" placeholder="Voorbeeld@gmail.com"
                   required>
@@ -118,14 +137,14 @@
                   Vul een geldig e-mailadres in.
                 </div>
               </div>
-              <div class="col-12 col-md-6">
+              <div class="col-12 col-md-6 form-group">
                 <label for="subject" class="form-label">Onderwerp</label>
                 <input type="text" class="form-control" id="subject" name="subject" placeholder="Onderwerp" required>
                 <div class="invalid-feedback">
                   Vul een onderwerp in.
                 </div>
               </div>
-              <div class="col-12">
+              <div class="col-12 form-group">
                 <label for="message" class="form-label">Bericht</label>
                 <textarea class="form-control" name="message" id="message" placeholder="Typ je bericht hier" rows="5"
                   required></textarea>
@@ -134,7 +153,9 @@
                 </div>
               </div>
             </fieldset>
-
+            <div class="col-12 mb-4 form-group">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
 
             <div class="col-12 mb-4">
               <button type="submit" class="btn custom-green text-uppercase">Verzenden</button>
@@ -187,6 +208,9 @@
               </li>
             </ul>
           </section>
+          <section id="mapP" class="row">
+          <div id="mapP1" class="col-12 mb-3"></div>
+        </section>
 
       </aside>
 
