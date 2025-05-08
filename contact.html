@@ -21,16 +21,18 @@
     <!-- LEAFLET -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    
     <link rel="stylesheet" href="css/map.css">
+
+
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <!-- js toevoegen -->
-  <script src="js/mapLoc.js" defer></script>
+  <script src="javascript/map-locatie.js" defer></script>
+  <script src="javascript/map-loc2.js" defer></script>
 
   <!-- eigen geschreven css voor jouw html-bestand -->
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/light-mode.css">
-  <link rel="stylesheet" href="css/map.css">
 
 </head>
 
@@ -108,7 +110,7 @@
           </div>
 
           <section id="map" class="row">
-            <div id="LocMap" class="col-12 mb-3"></div>
+            <div id="apMap" class="col-12 mb-3"></div>
           </section>
 
 
@@ -209,7 +211,8 @@
             </ul>
           </section>
           <section id="mapP" class="row">
-          <div id="mapP1" class="col-12 mb-3"></div>
+            <div id="mapP1" class="col-12 mb-3"></div>
+          </section>
         </section>
 
       </aside>

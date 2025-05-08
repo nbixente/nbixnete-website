@@ -1,12 +1,12 @@
-#LocMap {
-    /* neem de volle breedte in van het parent element */
+#apMap {
+    /* neem de volle breedte in van het parent element en heeft een hoogte van 250px */
     width: 100%;
-    height: 300px;
-    border: 1px solid red;
+    height: 250px;
+    margin-left: .75rem;
 }
 
 #mapP1 {
     height: 250px;
     width: 100%;
-    border: 1px solid red;
+    margin-left: .75rem;
 }
