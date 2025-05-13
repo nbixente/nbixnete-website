@@ -1,4 +1,6 @@
 // Bootstrap-validatie
+console.log('✅ validation script geladen');
+
 (function () {
     'use strict'
 
