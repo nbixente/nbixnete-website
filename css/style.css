@@ -80,8 +80,11 @@ a{
 
 .uniforme-card-image {
     width: 100%;
-    height: 180px; /* Of de gewenste vaste hoogte */
-    object-fit: cover; /* Behoudt aspect ratio en vult de container, snijdt indien nodig bij */
+  height: 200px; /* of 250px, afhankelijk van je ontwerp */
+  object-fit: contain;  /* Zorgt dat volledige afbeelding zichtbaar blijft */
+  object-position: center;
+  background-color: #f8f9fa; /* optioneel, als padding visueel niet mooi is */
+  display: block;
 }
 
 footer{
@@ -93,7 +96,30 @@ footer{
     justify-content: left; 
 }
 
+/* Basisinstelling: 16x9 */
+.responsive-ratio {
+  aspect-ratio: 16 / 9;
+}
+.responsive-afbeelding {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
 
+.carousel-inner {
+  height: 400px; /* vaste hoogte, kies wat bij jouw layout past */
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+.carousel-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
 
 
 .progress, .progress-stacked {
@@ -161,4 +187,29 @@ footer{
         border: 0.5px solid #000000;
         }
        
+}
+@media (max-width: 768px) {
+  .carousel-inner {
+    height: 250px;
+  }
+  .uniform-card-image {
+    height: 250px;
+  }
+}
+
+@media (min-width: 769px) {
+  .carousel-inner {
+    height: 400px;
+  }
+  .uniform-card-image {
+    height: 150px;
+  }
+}
+
+
+/* Vanaf 1200px overschakelen naar 21x9 */
+@media (min-width: 1200px) {
+  .responsive-ratio {
+    aspect-ratio: 21 / 9;
+  }
 }
