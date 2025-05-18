@@ -74,16 +74,16 @@ a{
 
 
 .uniforme-afbeelding {
-    height: 400px; /* Vervang dit door de gewenste hoogte */
+    height: 400px; 
     object-fit: cover;
 }
 
 .uniforme-card-image {
     width: 100%;
-  height: 200px; /* of 250px, afhankelijk van je ontwerp */
-  object-fit: contain;  /* Zorgt dat volledige afbeelding zichtbaar blijft */
+  height: 200px; 
+  object-fit: contain;  
   object-position: center;
-  background-color: #f8f9fa; /* optioneel, als padding visueel niet mooi is */
+  background-color: #f8f9fa; 
   display: block;
 }
 
@@ -107,7 +107,7 @@ footer{
 }
 
 .carousel-inner {
-  height: 400px; /* vaste hoogte, kies wat bij jouw layout past */
+  height: 400px; 
 }
 
 .carousel-item {
