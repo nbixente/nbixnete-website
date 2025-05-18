@@ -140,7 +140,9 @@ footer{
     border: 0.5px solid #000000;
     }
 
-
+.ruimte-toevoegen{
+  margin-top: 0;
+}
 
 @media (min-width:250px){
     .progress, .progress-stacked {
@@ -160,6 +162,9 @@ footer{
         border-radius: var(--bs-progress-border-radius);
         border: 0.5px solid #000000;
         }
+        .ruimte-toevoegen{
+  margin-top: 1rem;
+}
 }
 
 @media (min-width: 500px) {
@@ -186,6 +191,8 @@ footer{
         border-radius: var(--bs-progress-border-radius);
         border: 0.5px solid #000000;
         }
+      
+        
        
 }
 @media (max-width: 768px) {
@@ -195,6 +202,7 @@ footer{
   .uniform-card-image {
     height: 250px;
   }
+  
 }
 
 @media (min-width: 769px) {
@@ -204,6 +212,9 @@ footer{
   .uniform-card-image {
     height: 150px;
   }
+  .ruimte-toevoegen{
+  margin-top: 1rem;
+}
 }
 
 
@@ -212,4 +223,7 @@ footer{
   .responsive-ratio {
     aspect-ratio: 21 / 9;
   }
+  .ruimte-toevoegen{
+  margin-top: 0;
+}
 }
